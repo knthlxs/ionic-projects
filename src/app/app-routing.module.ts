@@ -11,7 +11,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'my-custom-page',
+    redirectTo: 'my-custom-page', // default page
     pathMatch: 'full',
   },
 
