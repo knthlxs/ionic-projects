@@ -17,10 +17,7 @@ const routes: Routes = [
 
   {
     path: 'my-custom-page',
-    loadChildren: () =>
-      import('./my-custom-page/my-custom-page.module').then(
-        (m) => m.MyCustomPagePageModule
-      ),
+
     component: MyCustomPage,
   },
 
