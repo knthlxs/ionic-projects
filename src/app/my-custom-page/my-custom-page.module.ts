@@ -4,17 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { MyCustomPagePageRoutingModule } from './my-custom-page-routing.module';
+import { MyCustomPageRoutingModule } from './my-custom-page-routing.module';
 
-import { MyCustomPagePage } from './my-custom-page.page';
+import { MyCustomPage } from './my-custom-page.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    MyCustomPagePageRoutingModule
-  ],
-  declarations: [MyCustomPagePage]
+  imports: [CommonModule, FormsModule, IonicModule, MyCustomPageRoutingModule],
+  declarations: [MyCustomPage],
 })
 export class MyCustomPagePageModule {}
