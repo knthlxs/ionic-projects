@@ -11,6 +11,6 @@ export class MyCustomPage {
 
   // Funtion for the Go by event butto
   goByEvent() {
-    this.router.navigate(['my-custom-page-with-id/1']); // Go to the specified path when clicked
+    this.router.navigate(['my-custom-page/my-custom-page-with-id/1']); // Go to the specified path when clicked
   }
 }
