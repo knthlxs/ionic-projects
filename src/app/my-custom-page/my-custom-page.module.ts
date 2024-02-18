@@ -6,15 +6,15 @@ import { IonicModule } from '@ionic/angular';
 
 import { MyCustomPagePageRoutingModule } from './my-custom-page-routing.module';
 
-import { MyCustomPagePage } from './my-custom-page.page';
+import { MyCustomPage } from './my-custom-page.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    MyCustomPagePageRoutingModule
+    MyCustomPagePageRoutingModule,
   ],
-  declarations: [MyCustomPagePage]
+  declarations: [MyCustomPage],
 })
 export class MyCustomPagePageModule {}
